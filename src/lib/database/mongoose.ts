@@ -29,7 +29,7 @@ export const connectToDatabase = async () => {
   cached.promise =
     cached.promise ||
     mongoose.connect(MONGODB_URL, {
-      dbName: "Img-Gen",
+      dbName: "Imaginify1",
       bufferCommands: false,
     });
 
